@@ -1,5 +1,43 @@
-body {font-family: Staatliches;color:purple}
-.head-content__button {color:red}
-.head-content__title {font-weight:bold}
-.head-content__text {font-weight:bold}
-.menu__link {color:pink}
+body {
+  font-family: Staatliches;
+  color: purple;
+  border: dashed 1px red;
+}
+.head-content__button {
+  color: red;
+  font-weight: bold;
+}
+.head-content__title {
+  font-weight: bold;
+}
+.head-content__text {
+  font-weight: bold;
+}
+.content {
+  margin: auto;
+  width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  }
+.logo {
+  border: dashed 1px red;
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  margin: 40px 0;
+}
+.menu {
+  border: dashed 1px red;
+  display: flex;
+  align-items: center;
+}
+.menu__link{
+   border: dashed 1px red;
+  padding: 0 13px;
+    color: red;
+}
+.menu__link:last-child {
+  padding-right: 0;
+}
